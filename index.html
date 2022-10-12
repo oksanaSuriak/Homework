@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+      <meta
+      charset="UTF-8"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Weather forecast
+      </h1>
+      <h2>
+        Saturday 10st September 2022, 11:00
+      </h2>
+      <form id="search-form">
+        <input
+          type="search"
+          placeholder=" Search city here"
+          autofocus="on"
+          autocomplete="off"
+          id="search-text-input"
+        />
+        <input type="submit" value="Saerch" />
+        
+         <button class ="btn btn-success w-100 id="current-location-button">
+           Current
+         </button>
+
+      </form>
+      <h3 id="city">
+        City_Lviv,Ukraine
+      </h3>
+      <h3 id="temperature">
+        15" 
+        <div class ="celsium">
+          °C
+        </h3>
+
+      <img src="src/image/clouds.png.png" alt="" width="200" />
+      <div class="col-6">
+        <ul>
+          <li>
+            Precipitation:<span id="Precipitation"> 0</span>
+          </li>
+          <li>
+            Humidity:<span id="Humidity"> 77</span>
+          </li>
+          <li>
+            Wind:<span id="wind">8</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+      <h4>
+        Today 5 Day Forecast
+        <hr />
+      </h4>
+      <div class="container text-left">
+        <div class="row">
+          <div class="col">
+            Monday <br /><strong> Rain</strong> <br />
+            13°C 🌧️
+          </div>
+          <div class="col">
+            Tuesday <br /><strong>Cloudy </strong> <br />
+            10°C ☁️
+          </div>
+          <div class="col">
+            Wednesday <br /><strong>Cloudy</strong><br />
+            11°C ☁️
+          </div>
+          <div class="col">
+            Thursday <br /><strong>Cloudy</strong><br />
+            11°C ☁️
+          </div>
+          <div class="col">
+            Friday <br /><strong>Cloudy</strong> <br />
+            11°C ☁️
+          </div>
+        </div>
+      </div>
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
